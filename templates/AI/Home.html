@@ -1,0 +1,182 @@
+{% load static %}
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Python:Artificial Intelligence </title>
+    <style>
+    body {
+        background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=2c44f2a6fe&attid=0.1&permmsgid=msg-f:1691033145815670677&th=1777c1afc7c11f95&view=att&disp=safe");
+    }
+    </style>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{% url 'homes' %}">
+        <img src="{%  static 'AI/image/logo.jpg' %}" width="40" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item" >
+          <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'examples' %}">Examples of Artificial Intelligence & Python</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'project' %}">My Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href= {% url 'citations' %}>Citations</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <div style="text-align: center;">
+    <h1><span style="color: #7cfc00; ">Python in Artificial Intelligence: What does the future hold?</span> </h1>
+    </div>
+    <div style="text-align: center"><IMG SRC="http://l.wigflip.com/p1QPUjUS/screedbot.gif" width="500" height="100"> </div>
+    <div style="text-align: center;">
+    <img src="{% static 'AI/image/Websiteimage.jpg' %}" alt="Image" height="700" width="1300">
+    </div>
+    <div style="text-align: left;">
+    <p><font size="10" color="#7cfc00">By Shobhit Chaudhary</font></p>
+    </div>
+    <div style="text-align: Justify">
+    <p><font color="red" size="5">What is Artificial Intelligence? </font></p>
+    <p><font color="#7cfc00" size="5"> Before getting into the complexity of artificial intelligence it is important
+    we understand what it is first, Artificial intelligence is intelligence displayed by machines such as phones,
+    Robots, computers etc. these are usually programmed using high level languages. Artificial Intelligence can observe
+    its environment and act upon, learn and solve problems. These can be narrowed down into <a style="color: Red">Weak AI</a>
+    and <a style="color: Red">Strong AI</a>.
+    </font></p>
+    <p><font color="#7cfc00" size="5"><a style="color: Red">Weak AI:</a> Weak AI can only be used to solve minor specific
+    tasks, examples of these can be computer chess players, social media, music apps such as
+    <a style="color: cyan" href="https://www.spotify.com/us/">Spotify</a> which recommends you music to listen to, keep
+    your email mailbox free of spam etc.</font></p>
+    <p><font color="#7cfc00" size="5"><a style="color: Red">Strong AI:</a> Also known as General AI, Strong AI is
+    the intelligence of computer which can be programmed to solve tasks like a human being can, this is harder to
+    create and is the way the future is heading, the future is being planned to run mainly by Strong AI. </font></p>
+    </div>
+    <div style="text-align: center">
+    <iframe width="711" height="400"  src="https://www.youtube.com/embed/YnMYZbyE2FQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+
+    <div style="text-align: justify">
+    <p><font color="red" size="5">How Does Artificial Intelligence Work? </font></p>
+    <p><font color="#7cfc00" size="5"> Artificial Intelligence works by collecting a significant amount of Data regarding
+     its surroundings and the functions for it to act upon its surroundings by the algorithm these can be broken down into
+    multiple applications: </font></p>
+    <p><font color="#7cfc00" size="5"><a style="color: Red">Machine Learning: </a>Also known as ML is the most common
+    Application of Artificial Intelligence and is most likely the first thing that comes up in your head when you think
+    of Artificial Intelligence, this however is not only <a style="color: red">Robots</a>. But is also the ability
+    of allowing programs to automatically learn and improve by collecting data from experience without being
+    explicitly programmed to do so, this is a result from an algorithm programmed and analyze data allowing the AI
+    to make predictions/decisions based on the data provided, similarly this is exactly how most applications such
+    as <a href="https://netflix.com/" style="color: cyan">Netflix</a> are functioned,
+    they are manufactured using <a style="color: red"> Machine Learning</a> and collect data from experience allowing
+    the application to act accordingly by recommending you similar movies based on your interests.</font></p>
+    <p><font color="#7cfc00" size="5"><a style="color: Red">Deep Learning: </a>Deep learning is a subset of
+    <a style="color: red">Machine Learning</a> and is mostly how Robots are functioned, they process data provided
+    to them and act upon it. <a style="color: red">Deep Learning</a> acts similarly to the Human Brain, it processes
+    the information provided by the "six senses". <a style="color: red">Deep Learning</a> consists of neural networks
+    which functions similar to neurons of the human brain.</font></p>
+    <p><font color="#7cfc00" size="5"><a style="color: red">Cognitive Computing:</a> Cognitive Computing is also a
+    vital Artificial Intelligence component, especially when it comes to programming <a style="color: red">
+    Robots</a> for the future as its set to have constant human to machine interaction. this is processed by
+    understanding human languages.</font></p>
+    <p><font color="#7cfc00" size="5"><a style="color: red">Natural Language Processing:</a> Natural Language Processing
+    helps the AI understand Human Language in speech form, as mentioned above for <a style="color: red">
+    Cognitive Computing</a> the main goal of NLP is to have a fully functioning robot to human interaction
+    which can happen by programming the AI to produce logical responses.</font></p>
+    <p><font color="#7cfc00" size="5"><a style="color: red">Computer Vision:</a> Computer vision is the
+    implantation of <a style="color: red">Deep Learning</a> and pattern identification to recognize content of
+    images and diagrams, this allows the AI to process visual data and act within it, an example of this is
+    x-ray machines or Covid-19 temperature checks.</font></p>
+
+
+    <p><font color="red" size="5">How is Artificial Intelligence going to be used in the future? what does the future bring? </font></p>
+    <p><font color="#7cfc00" size="5"> Artificial Intelligence is soon going to take over every industry and
+    have a major impact on global context, this include self controlled Robots whom will mainly work under
+    <a style="color: red"> Natural Language Processing</a> and <a style="color: red"> Cognitive Computer</a>.
+    The future brings more human to robot interaction providing more digital services, and technical innovation
+    by replacing human workers with Robots. this shows that not only will many jobs no longer exist there will
+    also be many new jobs coming to the field.</font></p>
+    <p><font color="#7cfc00" size="5">however, Robots aren't the only thing the future holds! Game development
+    will have a major leap when it comes to Artificial Intelligence Involvement, the gaming industry is set to
+    have more Virtual Reality influences according to game professionals.</font></p>
+    <img src="{%  static 'AI/image/robot-thinking.jpg' %}" alt="Image" height="800" width="1300">
+
+
+    <p><font color="red" size="5">How does Python links with Artificial Intelligence? </font></p>
+    <p><font color="#7cfc00" size="5"><a style="color: red">Python</a> is a high level programming language
+    which is also easy to learn. <a style="color: red">Python</a> also has pre built libraries such as
+    <a style="color: red"> Pybrain</a> in it which allows advanced computing and can be used in
+    <a style="color:red;"> Robots </a> or <a style="color:red;">Machine learning</a>. Not only can
+    Python be used for <a style="color: red">Machine Learning</a> but can also be used for
+    <a style="color:red;">scientific computation</a>.</font></p>
+
+    <p><font color="red" size="5">Advantages and disadvantages of the future of Artificial Intelligence:</font></p>
+    <p><font color="#7cfc00" size="5">Despite Artificial Intelligence becoming the future there are
+    many advantages and disadvantages which comes along with it.</font></p>
+    <table border="1" style="color: lawngreen; border-color: red; text-align: center; font-size: larger" width="100%">
+        <tr>
+            <th width="50%" style="color:red; background: black" >Advantages</th>
+            <th width="50%" style="color: red; background: black">Disadvantages</th>
+        </tr>
+        <tr>
+            <td>Many new jobs will be created</td>
+            <td>Despite many new jobs being created there will also be many jobs no longer existing leaving many unemployed
+            </td>
+        </tr>
+        <tr>
+            <td> It can increase the productivity leading to more hours working and better quality products/service</td>
+            <td>if it tends to malfunction or the unexpected  happens it will not be able to handle the situation </td>
+        </tr>
+        <tr>
+            <td> Can reduce safety hazards towards human when working in hazardous conditions</td>
+            <td> they can be extremely Hazardous if it happens to malfunction</td>
+        </tr>
+        <tr>
+            <td> Artificial Intelligence will be cheaper for the long-term-run in comparison to human employees</td>
+            <td> Artificial Intelligence will limit Human-to-Human interaction </td>
+        </tr>
+        <tr>
+            <td> Faster decisions</td>
+            <td> Won't be able to come up with unique ideas or "think outside the box"</td>
+        </tr>
+    </table>
+    </div>
+    <div>
+    <p><font color="red" size="5">Environmental impacts of Artificial Intelligence:</font></p>
+    <p><font color="#7cfc00" size="5">Despite being the future AI can often be criticized for its impact towards
+    the environment as the high performance graphic card has the same carbon footprint a flight across the US
+    does pumping 5 times more emission of C02 into the atmosphere than a muscle car. carbon emission footprint
+    has increased overtime as more technology comes in,</font></p>
+    <p><font color="#7cfc00" size="5">However, despite having a negative impact towards the environment AI can
+    also be used to expand the use of renewable energy by developing grids which automatically manages renewable
+    energy.</font> </p>
+    </div>
+
+
+</body>
+</html>
+
+

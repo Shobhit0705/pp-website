@@ -1,0 +1,115 @@
+{% load static %}
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Python:Artificial Intelligence </title>
+        <style>
+    body {
+        background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=2c44f2a6fe&attid=0.1&permmsgid=msg-f:1691033145815670677&th=1777c1afc7c11f95&view=att&disp=safe");
+    }
+    </style>
+</head>
+</body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{% url 'homes' %}">
+        <img src="{%  static 'AI/image/logo.jpg' %}" width="40" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item" >
+          <a class="nav-link" href="{% url 'home' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"  href="{% url 'examples' %}">Examples of Artificial Intelligence & Python</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'project' %}">My Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href= {% url 'citations' %}>Citations</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <div style="text-align: center">
+  <h1 style="color: red">7 examples of Artificial Intelligence which impacts your daily life!</h1>
+  </div>
+  <div style="text-align: justify">
+  <p style="float: left; clear: left"><img src="{% static 'AI/image/netflix logo.png' %}" height="120px" width="120px" border="1px"></p>
+    <p><font style="color: lawngreen; text-align: justify" size="5"><a style="color: red"> 1. Netflix or Spotify:</a> Do you ever
+    wonder how the system is able to provide you with recommendations based of your preferences? this is because
+    of Artificial Intelligence! they use a <a style="color: red">weak AI</a> that collects the data on your viewer history and provides
+    you with recommendations towards the similar genre or artist/actor allowing you to explore more towards your
+    preferred genre.</font></p>
+  </div>
+
+
+  <div style="text-align: justify">
+  <p style="float: right; clear: right"><img src="{% static 'AI/image/AppleSiriIcon2017.png' %}" height="100px" width="100px"></p>
+  <p><font style=" color: lawngreen; text-align: justify;" size="5"><a style="color: red">2. Siri:</a>
+  Siri is a <a style="color: red">weak AI</a> which uses <a style="color: red ">Natural Language Processing</a>
+  & <a style="color: red"> Voice recognition</a> which allows Siri to recognize the voice in speech form
+  and respond accordingly with directions, research, functions etc.This allows the user to access all kinds of
+  functions in their device using <a style="color: red">Voice recognition</a>. </font></p>
+  </div>
+
+  <div style="text-align: justify">
+  <p style="float: left; clear: left"><img src="{% static 'AI/image/self driven transportation.jpg' %}"
+  height="130px" width="200px"></p>
+  <p><font style="color: lawngreen; text-align: justify" size="5"><a style="color: red;" >3. Self Driven transportation:</a>
+  If you live in a city that runs with self driven transportation you'd know that this plays a significant role on how
+  on how the city runs, this is an example of <a style="color: red">strong AI</a>. the train tracks normally consist of
+  wires which sends signals to and from the train allowing the system to recognize the distance between the train
+  in front of it or how far away is the next station allowing the train to slow down.</font></p>
+  </div>
+
+  <div style="text-align: justify">
+  <p style="float: right; clear: right"><img src="{% static 'AI/image/search.jpg' %}" height="130px"></p>
+  <p><font style="color: lawngreen; text-align: justify" size="5"><a style="color: red">4. Web search:</a>
+  We use web search in our everyday life either for researching purposes or trying to access another website.
+  this is an example of <a style="color: red">weak AI</a>. The user inputs the data which sends a request to
+  the web server and file which seeks the input information to databases and returns back a document to the user.
+  </font></p>
+  </div>
+
+  <div style="text-align: justify">
+  <p style="float: left; clear: left"><img src="{% static 'AI/image/traffic.png' %}" height="100px" width="90px"></p>
+  <p><font style="color: lawngreen; text-align: justify" size="5" ><a style="color: red">5. Traffic lights: </a>
+  traffic lights uses Artificial Intelligence algorithm, this is an example of <a style="color: red">weak AI</a>.
+  the artificial intelligence algorithm allows traffic lights to deal with traffic jams due to <a style="color: red">
+  Machine Learning.</a>. The algorithm allows the traffic signals to coordinate in intersections.</font></p>
+  </div>
+
+  <div style="text-align: justify">
+  <p style="float: right; clear: right"><img src="{% static 'AI/image/map.png' %}" height ="100px" width="100px"></p>
+  <p><font style="color: lawngreen; text-align: justify" size="5"><a style="color: red">6. Google maps:</a>
+  Google maps is an example of a <a style="color: red">weak AI</a>. Google maps uses <a style="color: red">
+  Machine Learning</a> allows the app to recognize the visuals of buildings and streets.  </font></p>
+  </div>
+
+  <div style="text-align: justify">
+  <p style="float: left; clear: left"><img src="{%static 'AI/image/gamer.jpg'  %}"></p>
+  <p><font style="color: lawngreen; text-align: justify" size="5"><a style="color: red">7. Video games:</a>
+      Artificial Intelligence in video games are used to generate movement and behavior for
+      NPC's(Non-player characters). this allows the NPC's to serve its purpose depending on what it was
+  assigned to do. this can be called as <a style="color: red">Strong AI</a> as its purpose it to accomplish
+  tasks a human being can.</font> </p>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</html>

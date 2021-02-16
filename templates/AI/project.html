@@ -1,0 +1,63 @@
+{% load static %}
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Python:Artificial Intelligence </title>
+        <style>
+    body {
+        background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=2c44f2a6fe&attid=0.1&permmsgid=msg-f:1691033145815670677&th=1777c1afc7c11f95&view=att&disp=safe");
+    }
+    </style>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="{% url 'homes' %}">
+        <img src="{%  static 'AI/image/logo.jpg' %}" width="40" height="40">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item" >
+          <a class="nav-link" href="{% url 'home' %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="{% url 'examples' %}">Examples of Artificial Intelligence & Python</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"  href="{% url 'project' %}">My Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href= {% url 'citations' %}>Citations</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="text-align: center">
+<h1><font style="color: red">My Project</font></h1>
+<p><font style="color: lawngreen;" size="5"><a style="color: red">Project by:</a> Shobhit Chaudhary</font></p>
+<p><font style="color: lawngreen;" size="5"><a style="color: red">Mentor: </a> Mr. Bandy</font></p>
+<p><font style="color: lawngreen" size="5"><a style="color: red">School:</a> Greenfield International School</font></p>
+<p><font style="color: lawngreen;" size="5"><a style="color: red">Class:</a> 10A</font></p>
+<p><font style="color: lawngreen;" size="5"><a style="color: red">Project:</a> Python: Programming language</font></p>
+<p><font style="color: lawngreen;" size="5"><a style="color: red">Goal:</a> To promote python on how widely used it is in the modern day world and the future of Python.</font></p>
+<p><font style="color: red;" size="5">Project</font></p>
+<p><font style="color: lawngreen;" size="5">This Project aims to promote python in as many ways as possible such as
+a robot, a website & a game, this will provide various examples of how python is applied in a wide range of products
+promoting its significant role it plays on one's daily life. This website tries to spread further awareness of
+Artificial Intelligence.</font></p>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
